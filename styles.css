@@ -1,0 +1,63 @@
+
+
+
+.splash{
+    background-image:url(assets/babysnakes_white_centered.png);
+    background-size:auto 100%;
+    /* background-position:(0%, 100%);  */
+
+    /* filter:brightness(100%); */
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    
+}
+
+svg#Layer_1 {
+    left: 72vw;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: 75%;
+}
+
+.hero{
+    width: 40vw;
+    left: 50vw;
+    position: absolute;
+    /* box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.4); */
+    margin-top: 17.5vh;
+    margin-bottom: 17.5vh;
+    /* height: 66vh; */
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+.artist{
+    margin:10px;
+}
+
+
+.artist img{
+    width:100%;
+}
+
+.artist-list{
+    display:flex;
+    flex-direction: row;
+}
+.desc{
+    max-width:50%;
+    position:relative;
+}
+
+a:link{
+color:white;
+}
+h3{
+    text-transform: uppercase;
+}
