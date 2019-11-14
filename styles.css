@@ -93,6 +93,11 @@ filter:invert(100);
     margin:10px;
 }
 
+.mobile-spacer{
+    height:60vh;
+    position:relative;
+    
+}
 
 .artist img{
     width:100%;
